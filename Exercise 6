@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+        }
+        article {
+            flex: 2;
+            background-color: #fff;
+            padding: 20px;
+            margin-right: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        aside {
+            flex: 1;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        aside ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore the World's Most Fascinating Destinations!</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Welcome to Tourist Places Website</h2>
+            <p> Your ultimate guide to discovering incredible destinations around the globe. Whether you're planning your next vacation or simply dreaming about faraway places, we're here to inspire and inform. </p>  
+            <p>At Tourist Places Website, our mission is to showcase the beauty and diversity of tourist spots worldwide. We strive to provide comprehensive information, captivating stories, and practical travel tips to help you plan unforgettable journeys.</p>
+            <p>From iconic landmarks to hidden gems, our website features a curated selection of tourist places across continents. Discover breathtaking natural wonders, rich cultural heritage, vibrant cities, and tranquil escapes.</p>
+         </article>
+
+        <aside>
+            <h2>Related Links</h2>
+            <ul>
+                <li><a href="https://www.makemytrip.com/tripideas/places-to-visit-in-tamil-nadu">Related Link 1</a></li>
+                <li><a href="https://www.makemytrip.com/tripideas/places-to-visit-in-tamil-nadu">Related Link 2</a></li>
+                <li><a href="https://www.holidify.com/state/tamil-nadu/top-destinations-places-to-visit.html">Related Link 3</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Example. All rights reserved.</p>
+    </footer>
+</body>
+</html>
