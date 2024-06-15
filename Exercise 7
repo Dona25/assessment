@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video Player Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        audio, video {
+            width: 100%;
+            outline: none;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h2>Audio Player</h2>
+        <p>Enjoy this relaxing music track:</p>
+        <audio controls>
+            <source src="melody-of-nature-main-6672.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section>
+        <h2>Video Player</h2>
+        <p>Watch this stunning video clip:</p>
+        <video controls>
+            <source src="Video.mp4" type="video/mp4">
+            Your browser does not support the video element.
+        </video>
+    </section>
+</body>
+</html>
