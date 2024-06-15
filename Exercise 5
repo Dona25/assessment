@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <h1>Favourite Movies</h1>
+    <ol>
+        <li>Joe</li>
+        <ul>
+            <li>Released on 2023</li>
+            <li>Main actors are Rio Raj,Malavika Manoj and Bhavya Trikha.</li>
+            <li>Joe is a 2023 Indian Tamil-language romantic drama film written and directed by Hariharan Ram S. in his directorial debut.</li>
+        </ul>
+        <li>Hi Nana</li>
+        <ul>
+            <li>Released on 2023</li>
+            <li>Main actors are Mrunal Thakur and Nani.</li>
+            <li>Hi Nanna is a 2023 Indian Telugu-language romantic drama film directed by Shouryuv, in his directoral debut, and produced by Vyra Entertainments. </li>
+        </ul>
+        <li>Leo</li>
+        <ul>
+            <li>Released on 2023</li>
+            <li>Main actors are  Vijay, Sanjay Dutt, Arjun Sarja, Trisha, Gautham Vasudev Menon, Mysskin, Madonna Sebastian, George Maryan, Mansoor Ali Khan, Priya Anand and Mathew Thomas.</li>
+            <li>Leo is a 2023 Indian Tamil-language action thriller film directed by Lokesh Kanagaraj and produced by Seven Screen Studio. </li>
+        </ul>
+        <li>Premalu</li>
+        <ul>
+            <li>Released on 2024</li>
+            <li>Main actors are Naslen K. Gafoor and Mamitha Baiju, Sangeeth Prathap, Shyam Mohan, Meenakshi Raveendran, Akhila Bhargavan, Mathew Thomas and Althaf Salim.</li>
+            <li>Premalu is a 2024 Indian Malayalam-language romantic comedy film directed by Girish A. D. and produced by Bhavana Studios, in the company of Fahadh Faasil and Friends and Working Class Hero.</li>
+        </ul>
+        <li>Avesham</li>
+        <ul>
+            <li>Released on 2024</li>
+            <li>Main actors are  Fahadh Faasil, Mithun Jai Shankar, Roshan Shanavas and Sajin Gopu</li>
+            <li>Aavesham  is a 2024 Indian Malayalam-language action comedy film directed by Jithu Madhavan and produced by Nazriya Nazim and Anwar Rasheed under Fahadh Faasil and Friends and Anwar Rasheed Entertainments.</li>
+        </ul>
+    </ol>
+</body>
+</html>
