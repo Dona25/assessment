@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Example</title>
+    <style>
+        img {
+          width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <h1>Image and Links</h1>
+
+    <figure>
+        <img src="Image.jpg" alt="Description of the image" width="360" height="540" >
+        <figcaption>Beauty of Nature!!</figcaption>
+    </figure>
+
+    <p>Image source: <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pexels.com%2Fsearch%2Fnatural%2F&psig=AOvVaw15B-hNWe6m_WHeQsWvtknM&ust=1718515264429000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCODauqvu3IYDFQAAAAAdAAAAABAJ">Link to the source</a></p>
+</body>
+</html>
